@@ -2,6 +2,12 @@
 
 A two-page Power BI report analysing sales performance and profitability in a sample retail business. The project focuses on answering practical business questions: **How are sales developing, which product categories contribute to profit, and where are discounts associated with losses?**
 
+### Data Preparation and Modelling
+
+The project uses the Superstore dataset from Kaggle, containing approximately 10,000 sales records. Data was prepared in Power Query by checking data quality and correcting data types.
+
+A dimensional model was created with a central sales fact table and separate date, customer and product dimensions. DAX measures were used to calculate key metrics, including sales, profit, order count and profit margin.
+
 ## Report preview
 
 ### Executive Overview
